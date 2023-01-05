@@ -102,3 +102,18 @@
    text-decoration: none;
    color: #8f1010;
 }
+
+.inicio{
+   display: inline-block;
+   color: #fff;
+   width: 100px;
+   height: 40px;
+   background-color: rgb(58, 100, 118);
+   margin-top: 10px;
+   border: none;
+}
+
+.inicio a{
+   color: #fff !important;
+   font-weight: bold;
+}

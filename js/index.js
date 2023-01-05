@@ -15,7 +15,7 @@ const paginas = async (url) =>{
 
 d.addEventListener('click', e =>{
    e.preventDefault();
-   if(e.target.matches('.centro a')){
+   if(e.target.matches('.centro a') || e.target.matches('#recuperarPass .inicio a')){
       paginas(e.target.href);
    }
 })
